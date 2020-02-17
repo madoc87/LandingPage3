@@ -25,7 +25,8 @@ header{
   background-size: cover;
   background-position: center;
   height: 80vh;
-  min-height: 600px;
+  min-height: 500px;
+  max-height: 500px;
   padding: 0 2%;
   font-weight: 300;
 }
@@ -110,9 +111,7 @@ header nav.desktop-menu li a{
 .chamada1{
   max-width: 600px;
   float: right;
-  /*margin: 80px 280px;*/
   margin: 10% 20% 20% 20%;
-  /*margin: 140px 150px;*/
   color: white;
 }
 
@@ -131,20 +130,12 @@ header nav.desktop-menu li a{
  section.sessao1{
   background-color: #472562;
   width: 100%;
-  /*min-height: 60vh;*/
   height: 350px;
   padding: 0 2%;
   font-weight: 300;
-}
-
-/*section.sessao1{
-  width: 100%;
-  background-color: #472562;
-  padding: 0 2%;
-  height: 350px;
   position: relative;
-  top: -80px;
-}*/
+  top: -130px;
+}
 
 section.sessao1 .container{
   max-width: 1000px;
@@ -167,15 +158,12 @@ section.sessao1 .container{
 
 .texto-sessao1 p{
   font-size: 15px;
-  /*font-weight: 300;*/
   margin-top: 20px;
 }
 
 .texto-sessao1 ul{
   font-size: 15px;
-  /*list-style-position: inside;*/
   list-style-position: outside;
-  /*list-style-type: none;*/
   padding-left: 15px;
 }
 
@@ -212,7 +200,6 @@ section.sessao1 .container{
 
 /*============================Sessao 2============================*/
 section.sessao2{
-  margin-top: 40px;
   background-color: white;
   text-align: center;
 }
@@ -224,13 +211,16 @@ section.sessao2 .container{
 section.sessao2 h2{
   color: #472663;
   font-weight: 300;
+  position: relative;
+  top: -60px;
 }
 
 section.sessao2 p{
   display: inline-block;
   margin: 30px 4% 0 4%;
   max-width: 900px;
-  /*margin-bottom: 100px;*/
+  position: relative;
+  top: -30px;
 }
 
 section.sessao2 img{
@@ -258,7 +248,6 @@ section.sessao3{
   width: 50%;
   padding: 140px 0 90px 0;
   background: #835FA7;
-  /*text-align: justify;*/
 }
 
 .parte1 h2{
@@ -277,7 +266,6 @@ section.sessao3{
   float: left;
   width: 50%;
   padding: 140px 0 90px 0;
-  /*background: red;*/
 }
 
 .sobre-autor{
@@ -292,8 +280,6 @@ section.sessao3{
 }
 
 .titulo-autor h2{
-  /*float: left;*/
-  /*width: 41%;*/
   color: #232323;
   font-weight: 400px;
   font-size: 23px;
@@ -318,7 +304,6 @@ section.sessao3{
 }
 
 .wraper-titulo-autor{
-  /*width: calc(100% - 40px);*/
   float: left;
 }
 
@@ -349,7 +334,6 @@ section.sessao3{
 
 /*============================Sessao 4============================*/
 section.sessao4{
-  /*background-color: #440860;*/
   background-color: #472563;
   width: 100%;
   min-height: 500px;
@@ -359,7 +343,6 @@ section.sessao4{
   float: left;
   width: 50%;
   color: white;
-  /*text-align: center;*/
 }
 
 .contato{
