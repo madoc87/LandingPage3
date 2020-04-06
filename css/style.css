@@ -20,7 +20,7 @@ html, body{
 }
 
 header{
-  background-image: url('../images/clean-code.png');
+  background-image: url('../images/clean-code.webp');
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -193,7 +193,7 @@ section.sessao1 .container{
   position: relative;
   top: -50px;
   right: 80px;
-  background-image: url(../images/device.png);
+  background-image: url(../images/device.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -298,7 +298,7 @@ section.sessao3{
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background: url(../images/pp2.jpg);
+  background: url(../images/pp2.webp);
   background-size: 100% 100%;
   background-position: center;
 }
