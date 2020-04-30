@@ -45,11 +45,9 @@ $(function(){
 	 }
 
 
-
 	 $(window).resize(function(){
 	 	$('.slider_equipe').stop();
 	 })
-
 
 
  	function cliqueSlider(){

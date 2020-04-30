@@ -58,30 +58,18 @@ nav.mobile-menu{
   background-image: url('../images/menu.png');
   background-size: 100% 100%;
   margin-top: 40px;
-
 }
 
 nav.mobile-menu ul{
-  opacity: 0;
-  transition: 1s;
+  display: none;
   background-color: white;
   position: absolute;
-  width: 100%;
-  left: 0;
-  top: 80px;
+  width: 95%;
+  left: 2.5%;
+  top: 90px;
   list-style-type: none;
   text-align: center;
 }
-
-/*nav.mobile-menu:hover ul{
-  opacity: 1;
-}*/
-
-/*nav.mobile-menu ul li{
-  transition: 0.4s;
-  padding: 8px 0;
-  border-bottom: 1px solid black;
-}*/
 
 nav.mobile-menu ul li{
   transition: 0.4s;
@@ -99,11 +87,11 @@ nav.mobile-menu ul li:first-child{
 }
 
 nav.mobile-menu ul li:hover{
-  background-color: rgb(230, 230, 230);
+  background-color: #33144a;
 }
 
 nav.mobile-menu ul li a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -283,10 +271,21 @@ section.sessao3{
   padding: 140px 0 90px 0;
 }
 
+.slider_equipe{
+  max-width: 500px; 
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.slider_wraper{
+  width: 100%;
+}
+
 .sobre-autor{
   float: left;
-  max-width: 500px;
-  padding: 0 30px;
+  width: 100%;
+/*  max-width: 500px;
+  padding: 0 30px;*/
 }
 
 .titulo-autor{
@@ -461,34 +460,33 @@ footer p:nth-of-type(2){ /*Pseudo Classe para pegar o segundo do tipo*/
     right: 30px;
   }
 
-.wraper-contato{
-  width: 100%;
-  float: none;
-}
+  .wraper-contato{
+    width: 100%;
+    float: none;
+  }
 
-.contato h2{
-  text-align: center;
-}
+  .contato h2{
+    text-align: center;
+  }
 
-.contato p{
-  text-align: center;
-}
+  .contato p{
+    text-align: center;
+  }
 
-.wraper-localizacao{
-  width: 100%;
-  float: none;
-  padding-bottom: 50px; 
-}
+  .wraper-localizacao{
+    width: 100%;
+    float: none;
+    padding-bottom: 50px; 
+  }
 
-.localizacao h2{
-  text-align: center;
-}
+  .localizacao h2{
+    text-align: center;
+  }
 
-.contato input[type=submit]{  /*Botao Contato*/
-  margin: 20px auto;
-  text-align: center;
-  
-}
+  .contato input[type=submit]{  /*Botao Contato*/
+    margin: 20px auto;
+    text-align: center;
+  }
 
 }
 
@@ -577,9 +575,9 @@ footer p:nth-of-type(2){ /*Pseudo Classe para pegar o segundo do tipo*/
   float: none;
 }
 
-footer p:nth-of-type(2){
-  float: none;
-}
+  footer p:nth-of-type(2){
+    float: none;
+  }
 }
 
 
