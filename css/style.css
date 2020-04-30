@@ -73,14 +73,29 @@ nav.mobile-menu ul{
   text-align: center;
 }
 
-nav.mobile-menu:hover ul{
+/*nav.mobile-menu:hover ul{
   opacity: 1;
-}
+}*/
+
+/*nav.mobile-menu ul li{
+  transition: 0.4s;
+  padding: 8px 0;
+  border-bottom: 1px solid black;
+}*/
 
 nav.mobile-menu ul li{
   transition: 0.4s;
   padding: 8px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #a49ea8;
+  border-left: 2px solid #a49ea8;
+  border-right: 2px solid #a49ea8;
+  font-size: 18px;
+  background-color: #441e61;
+  /*background-color: #311745;*/
+}
+
+nav.mobile-menu ul li:first-child{
+  border-top: 2px solid #a49ea8;
 }
 
 nav.mobile-menu ul li:hover{
@@ -117,12 +132,12 @@ header nav.desktop-menu li a{
 
 .chamada1 h2{
   font-weight: 300;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .chamada1 p{
   max-width: 500px;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
 }
 
